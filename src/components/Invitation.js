@@ -5,8 +5,10 @@ export default class Invitation extends React.Component {
   render() {
 
     return (
+      const sms = `You've been invited!`
+
       <div>
-      <h1>`You'have been invited!`</h1>
+      <h1>{sms}</h1>
         {this.props.children}
       </div>
     );
